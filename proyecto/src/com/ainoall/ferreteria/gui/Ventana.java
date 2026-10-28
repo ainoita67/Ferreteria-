@@ -100,7 +100,7 @@ public class Ventana {
         final JLabel label7 = new JLabel();
         label7.setText("Fecha ultima compra");
         panel1.add(label7, cc.xy(1, 13));
-        fechaUltCompraDPicker = new DatePicker();
+        fechaUltCompraDPicker = new com.github.lgooddatepicker.components.DatePicker();
         panel1.add(fechaUltCompraDPicker, cc.xyw(3, 13, 3));
         datosEspecificosLbl = new JLabel();
         datosEspecificosLbl.setText("Potencia");
@@ -150,4 +150,5 @@ public class Ventana {
     public JComponent $$$getRootComponent$$$() {
         return panel1;
     }
+
 }
